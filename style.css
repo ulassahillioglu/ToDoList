@@ -1,0 +1,81 @@
+.pageBody {
+    background-color: lightblue; 
+}
+
+
+.header {
+    background-color: #007bff; 
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+}
+
+.header p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.header .fa-tasks {
+    font-size: 2rem;
+}
+
+.header .fa-tasks:hover {
+    transform: scale(1.2);
+}
+
+.item.checked{
+    opacity: 0.5;
+    background: gray !important; 
+}
+
+.item.checked:hover {
+    
+    transform: none; /* Stop the hover effect if item is checked */
+}
+
+.item{
+    transition: transform 0.3s ease;
+    z-index: 1;
+    position: relative;
+}
+
+.item-created-time{
+    position: absolute;
+}
+
+.item:hover{
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+.text-orange {
+    color: burlywood !important; 
+}
+
+
+#remove{
+    display: flex;
+   
+}
+
+.item-completed:checked + .item-description{
+    background-color: #dddddd;
+    text-decoration: line-through;
+}
+
+#add{
+    padding: 8px 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
