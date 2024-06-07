@@ -23,7 +23,7 @@
 
 1)Clone the repository
 ```bash
-https://github.com/ulassahillioglu/ToDoList
+git clone https://github.com/ulassahillioglu/ToDoList
 ```
 2)Navigate to the project directory: 
 ```bash
