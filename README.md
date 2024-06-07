@@ -1,4 +1,5 @@
 <h1>To-Do List Application</h1>
+
 * This project is a simple To-Do List web application that allows users to add, update, and remove tasks. The application also records the creation time of each task and uses local storage to persist the task data.
 
 <h3>Features</h3>
